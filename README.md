@@ -1,6 +1,6 @@
 # Tanulságos bug: RudDarabolas
 
-Ez a program nem működik, de nagyon tanulságos a hiba, hogy miért nem.
+Ez a program először nem működött, de nagyon tanulságos a hiba, hogy miért nem, úgyhogy ide leírom.
 
 A MESTER-en is megtalálható rúddarabolás feladatról van szó, a feladat lényege igazából lényegtelen. A lényeg az, hogy a program három függvényből épül fel:
     
