@@ -18,7 +18,7 @@ Viszont nem mûködik. Step-by-step az lesz, hogy
       Beolvas const&-el tér vissza, nincs se copy, se move, hanem a stacken lévõ változó címet adja vissza, 
         aztán lefuttatja a destruktorát, majd lebontja a stack frame-et. 
       Utána ezt a címet (ami már hivatalosan "sehova" mutat, de a valóságban még ott van a stacken az érték), 
-        átadja a feldolgoznak, aki, miközben létrehozza a saját stack frame-jét, felülírja az adatot
+        átadja a feldolgoznak, aki, miközben létrehozza a saját stack frame-jét, felülírja az adatot "
     
     Szóval ez egy szép példa arra, hogy lehet olyan adattal is dolgozni, ami nincs is ott.
 /**/
